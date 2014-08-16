@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tasker</title>
+    <link rel='stylesheet' type="text/css" href='styles.css'/>
+  </head>
+
+  <body>
+    <h1>JSTasker</h1>
+    <form id='add_task' action='#'>
+      <fieldset>
+        <legend>Add a Task</legend>
+        <input type='text' name='task_text' id='task_text' autofocus='autofocus' />
+        <input type='submit' name='add_button' value='Add' />
+      </fieldset>
+    </form>
+
+    <div id='tasks'>
+      <h2>Your Tasks <span id='task_counter'></span></h2>
+      <ul>
+      </ul>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="application.js"></script>
+  </body>
+</html>
